@@ -50,7 +50,7 @@ cd $FolderName
 New-Item -Path . -Name "about.md" -ItemType "file" -Value $aboutheader
 New-Item -Path . -Name ".gitignore" -ItemType "file"  -Value "about.md `n"
 $ignorestring |Add-Content -Path .\.gitignore
-New-Item -Path . -Name "read.me" -ItemType "file"
+New-Item -Path . -Name "README.md" -ItemType "file"
 
 
 #*Function for creating the Html files/folders if approved:
